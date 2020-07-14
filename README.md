@@ -1,3 +1,3 @@
 # My-Portfolio
 
-![UI Preview](https://github.com/baderbintahir/My-Portfolio/tree/master/img/My-Portfolio.png)
+![UI Preview](https://raw.githubusercontent.com/baderbintahir/My-Portfolio/master/img/My-Portfolio.png)
