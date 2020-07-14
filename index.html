@@ -66,20 +66,22 @@
         <span class="m-left">r</span>
         <span class="m-left">.</span>
       </h1>
-      <p>CSS / JavaScript / React</p>
-      <a href="#contact">contact me</a>
-    </div>
+      <p>React / JavaScript / CSS</p>
 
-    <div class="profile-image">
-      <img src="img/profile-image4.png" alt="">
-    </div>
+      <div class="contact-imgs">
+        <p class="email">badarbintahir@gmail.com</p>
+        <a target="_blank" href="https://www.facebook.com/baderbintahir/"><img src="img/fb.png" alt="facebook"></a>
+        <a target="_blank" href="https://twitter.com/baderbintahir1"><img src="img/twitter.png" alt="twitter"></a>        
+        <a target="_blank" href="https://github.com/baderbintahir"><img src="img/github.png" alt="github"></a>
+      </div>
+    </div>    
   </div>
 
   <div class="container content-boxes about" id="about">
     <h1>About</h1>
     <div class="about-me-info black-box">
       <p>Hello! My name is Muhammad Bader, and I am a front-end Web Developer. I have worked as a free lancer. My
-        clients were from all over the world. You can see my work on my <a href="https://github.com/baderbintahir" target="_blank">GitHub</a>. And you can also find me on <a href="https://twitter.com/baderbintahir1" target="_blank">Twitter</a>.
+        clients were from all over the world.
       </p>
       <p>I have experience of working with different technologies like HTML, CSS, JavaScript(ES5 + ES6), ReactJS,
         NodeJS, MaterialUI, SocketIO, Jest, Git etc. And all the credit goes to my drive to learn new things and
@@ -93,133 +95,83 @@
   <div class="container content-boxes skills" id="skills">
     <h1>Skills</h1>
 
-    <div class="html">
-      <div class="tag-html">
-        <p>HTML</p>
-      </div>
-      <div class="progressbar">
-        <div class="bar-html"></div>
-      </div>
-    </div>
+    <div class="black-box">
 
-    <div class="html">
-      <div class="tag-css">
-        <p>CSS</p>
-      </div>
-      <div class="progressbar">
-        <div class="bar-css"></div>
-      </div>
-    </div>
+      <div class="skills-list">
+        <ul>
+          <li>JavaScript / ES5 + ES6</li>
+          <li>ReactJS / Redux</li>
+          <li>MaterialUI</li>
+          <li>SemanticUI</li>
+          <li>NodeJS / ExpressJS</li>
+          <li>SocketIO</li>
+          <li>RESTful APIs</li>
+          <li>Webpack</li>
+          <li>Parcel</li>
+        </ul>
 
-    <div class="html">
-      <div class="tag-javascript">
-        <p>JavaScript</p>
-      </div>
-      <div class="progressbar">
-        <div class="bar-javascript"></div>
-      </div>
-    </div>
-
-    <div class="html">
-      <div class="tag-react">
-        <p>React</p>
-      </div>
-      <div class="progressbar">
-        <div class="bar-react"></div>
+        <ul>
+          <li>Jest</li>
+          <li>Cypress</li>
+          <li>MySQL</li>
+          <li>MongoDB</li>
+          <li>Git</li>
+          <li>Scrum / Agile / Kanban</li>
+          <li>Unix System Familiarity</li>
+          <li>Test Driven Development (TDD)</li>
+        </ul>
       </div>
     </div>
-  </div>
-  
-  <div class="black-box">
-    <p class="skills-info">My skillset includes:</p>
 
-    <div class="skills-list">
-      <ul>
-        <li>JavaScript / ES5 + ES6</li>
-        <li>ReactJS / Redux</li>
-        <li>MaterialUI</li>
-        <li>SemanticUI</li>
-        <li>NodeJS / ExpressJS</li>
-        <li>SocketIO</li>
-        <li>RESTful APIs</li>
-        <li>Webpack</li>
-        <li>Parcel</li>
-      </ul>
+    <div class="container content-boxes work" id="work">
+      <h1>Work</h1>
 
-      <ul>
-        <li>Jest</li>
-        <li>Cypress</li>
-        <li>MySQL</li>
-        <li>MongoDB</li>
-        <li>Git</li>
-        <li>Scrum / Agile / Kanban</li>
-        <li>Unix System Familiarity</li>
-        <li>Test Driven Development (TDD)</li>
-      </ul>
-    </div>
-  </div>
+      <div class="work-category">
+        <button onclick="showRequiredCategory(this)" id="designing" class="active">Web Designing</button>
+        <button onclick="showRequiredCategory(this)" id="animation">Node Projects</button>
+        <button onclick="showRequiredCategory(this)" id="project">React Projects</button>
+      </div>
 
-  <div class="container content-boxes work" id="work">
-    <h1>Work</h1>
+      <div class="category-designing showCategory">        
+        <a href=""><img src="img/Project1-2.png" alt="Project: 1"></a>
+        <a href=""><img src="img/Project1-3.png" alt="Project: 2"></a>
+        <a href=""><img src="img/Project1-4.png" alt="Project: 3"></a>
+        <a href=""><img src="img/Project1-5.png" alt="Project: 4"></a>
+        <a href=""><img src="img/Project1-6.png" alt="Project: 5"></a>
+        <a href=""><img src="img/Project1-7.png" alt="Project: 6"></a>
+        <a href=""><img src="img/Project1-8.png" alt="Project: 7"></a>
+        <a href=""><img src="img/Project1-9.png" alt="Project: 8"></a>
+        <a href=""><img src="img/Project1-10.png" alt="Project: 9"></a>
+      </div>
 
-    <div class="work-category">
-      <button onclick="showRequiredCategory(this)" id="designing" class="active">Web Designing</button>
-      <button onclick="showRequiredCategory(this)" id="animation">Node Projects</button>
-      <button onclick="showRequiredCategory(this)" id="project">React Projects</button>
-    </div>
+      <div class="category-animation hideCategory">
+        <a href=""><img src="img/Project2-1.png" alt="Project: 1"></a>
+        <a href=""><img src="img/Project2-2.png" alt="Project: 2"></a>
+        <a href=""><img src="img/Project2-3.png" alt="Project: 3"></a>
+      </div>
 
-    <div class="category-designing showCategory">
-      <a href=""><img src="img/Project1-2.png" alt="Project: 1"></a>
-      <a href=""><img src="img/Project1-3.png" alt="Project: 2"></a>
-      <a href=""><img src="img/Project1-4.png" alt="Project: 3"></a>
-      <a href=""><img src="img/Project1-5.png" alt="Project: 4"></a>
-      <a href=""><img src="img/Project1-6.png" alt="Project: 5"></a>
-      <a href=""><img src="img/Project1-7.png" alt="Project: 6"></a>
-      <a href=""><img src="img/Project1-8.png" alt="Project: 7"></a>
-      <a href=""><img src="img/Project1-9.png" alt="Project: 8"></a>
-      <a href=""><img src="img/Project1-10.png" alt="Project: 9"></a>
-      <a href=""><img src="img/Project1-1.png" alt="Project: 10"></a>
+      <div class="category-project hideCategory">
+        <a href=""><img src="img/Project3-1.png" alt="Project: 1"></a>
+        <a href=""><img src="img/Project3-2.png" alt="Project: 2"></a>
+        <a href=""><img src="img/Project3-3.png" alt="Project: 3"></a>
+        <a href=""><img src="img/Project3-4.png" alt="Project: 4"></a>
+        <a href=""><img src="img/Project3-5.png" alt="Project: 5"></a>
+        <a href=""><img src="img/Project3-6.png" alt="Project: 6"></a>
+        <a href=""><img src="img/Project3-7.png" alt="Project: 7"></a>
+      </div>
     </div>
 
-    <div class="category-animation hideCategory">
-      <a href=""><img src="img/Project2-1.png" alt="Project: 1"></a>
-      <a href=""><img src="img/Project2-2.png" alt="Project: 2"></a>
-      <a href=""><img src="img/Project2-3.png" alt="Project: 3"></a>
-    </div>
+    <footer>
+      <hr>
+      <p>2020 Copyright. All Rights Reserved.</p>
+    </footer>
 
-    <div class="category-project hideCategory">
-      <a href=""><img src="img/Project3-1.png" alt="Project: 1"></a>
-      <a href=""><img src="img/Project3-2.png" alt="Project: 2"></a>
-      <a href=""><img src="img/Project3-3.png" alt="Project: 3"></a>
-      <a href=""><img src="img/Project3-4.png" alt="Project: 4"></a>
-      <a href=""><img src="img/Project3-5.png" alt="Project: 5"></a>
-      <a href=""><img src="img/Project3-6.png" alt="Project: 6"></a>
-      <a href=""><img src="img/Project3-7.png" alt="Project: 7"></a>
-    </div>
-  </div>
-
-  <div class="container content-boxes contact" id="contact">
-    <h1>Contact</h1>
-    <form>
-      <input type="text" name="name" placeholder="Full Name">
-      <input type="email" placeholder="Email">
-      <input type="email" placeholder="PortfolioPersonalEmail@example.com" disabled>
-      <textarea name="message" cols="30" rows="10" placeholder="Message"></textarea>
-      <input type="submit">
-    </form>
-  </div>
-
-  <footer>
-    <hr>
-    <p>2020 Copyright. All Rights Reserved.</p>
-  </footer>
-
-  <script src="js/ScrollMagic.min.js"></script>
-  <script src="js/animation.gsap.min.js"></script>
-  <script src="js/TimelineLite.min.js"></script>
-  <script src="js/TweenMax.min.js"></script>
-  <script src="js/CSSPlugin.min.js"></script>
-  <script src="js/script.js"></script>
+    <script src="js/ScrollMagic.min.js"></script>
+    <script src="js/animation.gsap.min.js"></script>
+    <script src="js/TimelineLite.min.js"></script>
+    <script src="js/TweenMax.min.js"></script>
+    <script src="js/CSSPlugin.min.js"></script>
+    <script src="js/script.js"></script>
 </body>
 
 </html>
